@@ -1,0 +1,33 @@
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 600px; /* Можна задати фіксовану ширину, наприклад 600px */
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+
+  /* Оформлення заголовка (th) та комірок (td) */
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* Текст по центру всередині комірок */
+    color: silver;
+  }
+
+  /* Стиль для шапки таблиці */
+  thead th {
+    background-color: skyblue ;
+    color: white;
+  }
+
+  /* Ефект "зебри" для рядків */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Підсвічування при наведенні */
+  tr:hover {
+    background-color: #ddd;
+    color: black;
+  }
